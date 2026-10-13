@@ -1,0 +1,83 @@
+/* css reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: burlywood;
+}
+
+img {
+  width: 150px;
+}
+
+/* image moved to the center at the top */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+/* main content */
+
+main {
+  background-color: teal;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+h2 {
+  color: blue;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  padding: 15px;
+  background-color: #8bbb92;
+}
+
+/* Css id section  */
+
+#Paragraph-section {
+  border: 2px solid blue;
+}
+
+#h2-section {
+  border: 2px solid purple;
+}
+
+#yellow-text {
+  color: yellow;
+}
+
+/* CSS class section */
+
+.red-text {
+  color: red;
+}
+
+.green-text {
+  color: lime;
+}
+
+/* button section */
+
+#button-section .btn {
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px solid blue;
+  border-radius: 10px;
+  background: purple;
+  color: aqua;
+}
